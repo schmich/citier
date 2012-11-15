@@ -1,3 +1,5 @@
+require 'rails_sql_views'
+
 class ActiveRecord::Base
 
   def self.set_acts_as_citier(citier)
